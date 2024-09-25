@@ -1,12 +1,12 @@
 module github.com/jumpycalm/goscard
 
-go 1.18
+go 1.22.7
 
 require (
-	github.com/ebitengine/purego v0.3.2
-	github.com/google/uuid v1.3.0
-	github.com/stretchr/testify v1.8.2
-	golang.org/x/sys v0.6.0
+	github.com/ebitengine/purego v0.8.0
+	github.com/google/uuid v1.6.0
+	github.com/stretchr/testify v1.9.0
+	golang.org/x/sys v0.25.0
 )
 
 require (
