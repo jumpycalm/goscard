@@ -1,4 +1,4 @@
-module github.com/ElMostafaIdrassi/goscard
+module github.com/jumpycalm/goscard
 
 go 1.18
 

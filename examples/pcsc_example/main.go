@@ -19,7 +19,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ElMostafaIdrassi/goscard"
+	"github.com/jumpycalm/goscard"
 )
 
 func main() {

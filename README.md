@@ -1,6 +1,6 @@
 ## goscard
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/ElMostafaIdrassi/goscard)](https://pkg.go.dev/github.com/ElMostafaIdrassi/goscard)
+[![Go Reference](https://pkg.go.dev/badge/github.com/jumpycalm/goscard)](https://pkg.go.dev/github.com/jumpycalm/goscard)
 
 goscard is a PCSC / SCard wrapper in pure Go, without any CGO bindings.
 
@@ -10,4 +10,4 @@ Shoutout to the [purego](https://github.com/ebitengine/purego) project, without 
 
 ## Usage
 
-See the [pcsc example](https://github.com/ElMostafaIdrassi/goscard/tree/main/examples/pcsc_example).
+See the [pcsc example](https://github.com/jumpycalm/goscard/tree/main/examples/pcsc_example).
