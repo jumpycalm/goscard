@@ -1099,7 +1099,6 @@ var (
 		"pcsc_stringify_error",
 		"SCardBeginTransaction",
 		"SCardCancel",
-		"SCardCancelTransaction",
 		"SCardConnect",
 		"SCardControl",
 		"SCardControl132",
@@ -1208,8 +1207,6 @@ func Initialize(customLogger Logger, scardLibPaths ...string) (errRet error) {
 						purego.RegisterFunc(&scardBeginTransactionProc, sym)
 					case "SCardCancel":
 						purego.RegisterFunc(&scardCancelProc, sym)
-					case "SCardCancelTransaction":
-						purego.RegisterFunc(&scardCancelTransactionProc, sym)
 					case "SCardConnect":
 						purego.RegisterFunc(&scardConnectProc, sym)
 					case "SCardControl":

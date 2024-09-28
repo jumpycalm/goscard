@@ -1283,7 +1283,6 @@ var (
 		"SCardControl":                          &scardControlProc,
 		"SCardDisconnect":                       &scardDisconnectProc,
 		"SCardEndTransaction":                   &scardEndTransactionProc,
-		"SCardCancelTransaction":                &scardCancelTransactionProc,
 		"SCardEstablishContext":                 &scardEstablishContextProc,
 		"SCardForgetCardTypeW":                  &scardForgetCardTypeProc,
 		"SCardForgetReaderGroupW":               &scardForgetReaderGroupProc,
