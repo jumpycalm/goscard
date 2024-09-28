@@ -1971,8 +1971,10 @@ func (c *Card) Transmit(
 	var sendBufferPtr *byte
 	var recvBufferPtr *byte
 
-	logger.Infof("Transmit, IN : (handle=0x%X, sendBuffer=%v)", c.handle, sendBuffer)
-	defer func() { logger.Infof("Transmit, OUT: (handle=0x%X, recvBuffer=%v)", c.handle, recvBuffer) }()
+	logger.Infof("Transmit, IN : (handle=0x%X, sendBuffer=%s)", c.handle, hex.EncodeToString(sendBuffer))
+	defer func() {
+		logger.Infof("Transmit, OUT: (handle=0x%X, recvBuffer=%s)", c.handle, hex.EncodeToString(recvBuffer))
+	}()
 
 	if scardTransmitProc == nil {
 		err = fmt.Errorf("scardTransmit() not found in pcsc")
