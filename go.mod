@@ -1,6 +1,6 @@
 module github.com/jumpycalm/goscard
 
-go 1.22.7
+go 1.22
 
 require (
 	github.com/ebitengine/purego v0.8.0
